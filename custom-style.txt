@@ -1,0 +1,67 @@
+/* Do Not Display */
+.logo,
+.header-main {display:none;}
+
+/* Flash News Banner Style Fixes */
+.orbit-container .orbit-slides-container {margin-top: -1px;}
+
+.flash-news {
+  padding: 15px 0 15px 0px;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.flash-header {
+  border-right: 1px solid #000;
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+.flash-news .orbit-container {margin-left: 7px;}
+
+/* Make Titles Bold */
+.entry-title {font-weight:bold;}
+
+/* Shift Home Sidebar Area */
+.home #sidebar {
+  padding-top: 16px;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+/* Darken Font Color */
+body {color: #333;}
+
+/* Button Color */
+
+button,
+button:hover, 
+button:focus, 
+.button,
+.button:hover, 
+.button:focus {
+  background-color: blue;
+  border-color: blue;
+}
+
+@media only screen and (min-width: 940px){
+
+   /* Nav Background Color */
+  .primary-menu,
+  .top-bar,
+  .top-bar-section li a:not(.button) {background: #999;}
+
+  /* Nav Divider Color and Changes */
+  .primary-menu .top-bar-section > ul > .divider {
+    margin-top: 0px;
+    height: 1px;
+    width: 1px;
+  }
+
+  /* Primary Nav Link Typography */
+    .top-bar-section ul li > a {
+    font-weight: bold; 
+    font-size: 1.2em;
+    color: #fff;
+  }
+}
