@@ -1,0 +1,20 @@
+div#be_gallery_metabox div.be-image-wrapper span.be-image-remove {
+	cursor:pointer;
+	position:relative;
+	left:-16px;
+	bottom:-8px;
+}
+div#be_gallery_metabox .be-button {
+	margin:0 5px 0 0;
+	font-size: 12px;
+    line-height: 15px;
+    padding: 3px 10px;
+    white-space: nowrap;	
+}
+.be-image-wrapper img {
+	margin-bottom: 20px;
+}
+.be-image-wrapper .be-image-remove img {
+	width: 24px;
+	height: 24px;
+}

@@ -1,0 +1,10 @@
+/*-----------------------------------------------------------------------------------*/
+/*	Reporter Theme Changelog
+/*-----------------------------------------------------------------------------------*/
+
+Reporter 1.0.1 - July 24, 2013
+	[FIXED] homepage bug when flash news disabled
+	[ADDED] page titles
+
+Reporter 1.0 - July 21, 2013
+	Initial release

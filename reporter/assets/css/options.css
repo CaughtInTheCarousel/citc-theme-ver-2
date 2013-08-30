@@ -1,0 +1,83 @@
+
+/*---------------------------*/
+/*		   general
+/*---------------------------*/
+
+body,
+.posts .title-meta .entry-meta { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+body {
+	background: #000000 ; 
+}
+
+h1,h2,h3,h4,h5,h6,
+.entry-time,
+.header-main-menu .trigger,
+.header-search input,
+.entry-meta,
+blockquote,
+.the-author,
+.comment-meta,
+label { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.logo .logo-text,
+.footer-widgets,
+.page-numbers li span,
+.next-prev a:hover,
+.page-links .current,
+.content input[type="submit"]:hover,
+.slider .entry-header,
+.slider .entry-content,
+.flex-direction-nav .flex-prev,
+.flex-direction-nav .flex-next,
+.widget_tag_cloud a:hover { 
+	background-color: #000000;  
+}
+
+.top-bar-section ul li > a:hover,
+.top-bar-section ul li.active > a,
+.heading,
+a,
+a:hover,
+.page-title,
+.the-author a,
+.entry-content .widget-title,
+.featured-image:hover a:after { color: #000000; }
+
+@media (min-width: 768px) {
+	logo { width: 0px; }
+	.logo img,
+	.logo-text {
+		width: 0px;
+		height: 0px;
+	}
+	.header-main-row { padding-left: -50px; }
+	.header-main-menu .trigger { 
+		height: 0px; 
+		line-height: 0px; 
+	}
+	.header-search { height: 0px; }
+	.header-search form { 
+		0px; 
+		width: 100%;
+		display: table;
+		height: 100%;
+	}
+	.header-search form > .row {
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+	}
+}
+
+/*---------------------------*/
+/*		  custom css
+/*---------------------------*/	
+ 
+.logo,
+.header-main {display:none;}
+
+/*.featured-image {
+  overflow: visible;
+  background: transparent;
+}*/

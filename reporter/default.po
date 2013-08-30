@@ -1,0 +1,1738 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Engine\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-12 16:51-0000\n"
+"PO-Revision-Date: 2013-07-12 16:51-0000\n"
+"Last-Translator: Steve <stephenbluck@msn.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:41
+msgid "Submit"
+msgstr ""
+
+#: functions.php:64
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:117
+msgid "Global Sidebar"
+msgstr ""
+
+#: functions.php:118
+msgid "Header Main Left Dropdown"
+msgstr ""
+
+#: functions.php:119
+msgid "Header Main Right Dropdown"
+msgstr ""
+
+#: functions.php:120
+msgid "Footer Top"
+msgstr ""
+
+#: functions.php:121
+msgid "Footer Bottom"
+msgstr ""
+
+#: functions.php:200
+#, php-format
+msgid "<cite class=\"fn the-author\">%s</cite>"
+msgstr ""
+
+#: functions.php:204
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:208
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: header.php:127
+msgid "Menu"
+msgstr ""
+
+#: searchform.php:4
+msgid "Enter a keyword..."
+msgstr ""
+
+#: searchform.php:7
+msgid "Search"
+msgstr ""
+
+#: admin/classes/class.options_machine.php:303
+msgid "Enter font name from the "
+msgstr ""
+
+#: admin/classes/class.options_machine.php:500
+msgid "Last Backup : "
+msgstr ""
+
+#: admin/classes/class.options_machine.php:561
+msgid "Upload"
+msgstr ""
+
+#: admin/classes/class.SidebarGenerator.php:243
+msgid "Custom Sidebar Generator"
+msgstr ""
+
+#: admin/classes/class.SidebarGenerator.php:245
+msgid ""
+"The sidebar name is purely for your own use so you can stay organised, your "
+"visitors will not be able to see it. A CSS class is assigned to each of your "
+"sidebars incase you wish to customise it further."
+msgstr ""
+
+#: admin/classes/class.SidebarGenerator.php:248
+msgid ""
+"You can create as many sidebars as you want, you can then go and <a href="
+"\"post-new.php?post_type=page\">Create</a> or <a href=\"edit.php?"
+"post_type=page\">Edit</a> a page and assign this custom sidebar to it. You "
+"can assign a custom sidebar to any post or page. <strong>The shortcode is "
+"provided incase you need it but it is not required.</strong><br /><br />\n"
+"\t\t\t\n"
+"\t\t\t\tThe sidebar will be added automatically to <a href=\"widgets.php"
+"\">Widgets</a> page"
+msgstr ""
+
+#: admin/front-end/options.php:43 admin/front-end/options.php:69
+msgid "Save All Changes"
+msgstr ""
+
+#: admin/front-end/options.php:70
+msgid "Options Reset"
+msgstr ""
+
+#: admin/functions/functions.mediauploader.php:210
+msgid "Gallery"
+msgstr ""
+
+#: admin/functions/functions.mediauploader.php:210
+msgid "Previously Uploaded"
+msgstr ""
+
+#: admin/functions/functions.options.php:112
+msgid "General Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:116
+msgid "Other General Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:119
+msgid "Custom Logo"
+msgstr ""
+
+#: admin/functions/functions.options.php:120
+msgid ""
+"Upload a custom logo for your site, or specify the image address of your "
+"online logo. (e.g. http://yoursite.com/logo.png)"
+msgstr ""
+
+#: admin/functions/functions.options.php:125
+msgid "Logo Width"
+msgstr ""
+
+#: admin/functions/functions.options.php:126
+msgid "Enter the width of your logo."
+msgstr ""
+
+#: admin/functions/functions.options.php:131
+msgid "Logo Height"
+msgstr ""
+
+#: admin/functions/functions.options.php:132
+msgid ""
+"Enter the height of your logo. This also determines the height of the main "
+"header area."
+msgstr ""
+
+#: admin/functions/functions.options.php:139
+msgid "Header Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:144
+#: admin/functions/functions.options.php:219
+msgid "Layout Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:149
+msgid "Headings Layout"
+msgstr ""
+
+#: admin/functions/functions.options.php:160
+msgid "Widget Drop down Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:164
+msgid "Header Left Drop down Title"
+msgstr ""
+
+#: admin/functions/functions.options.php:165
+#: admin/functions/functions.options.php:171
+msgid "Enter a title for the left drop down that appears in the header."
+msgstr ""
+
+#: admin/functions/functions.options.php:170
+msgid "Header Right Drop down Title"
+msgstr ""
+
+#: admin/functions/functions.options.php:178
+msgid "Flash News Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:181
+msgid "Show Flash News"
+msgstr ""
+
+#: admin/functions/functions.options.php:182
+msgid "Check this to display the flash news, this appears within the top bar."
+msgstr ""
+
+#: admin/functions/functions.options.php:187
+msgid "Header"
+msgstr ""
+
+#: admin/functions/functions.options.php:188
+msgid "Enter a header."
+msgstr ""
+
+#: admin/functions/functions.options.php:190 parts/flash-news.php:19
+msgid "Flash News"
+msgstr ""
+
+#: admin/functions/functions.options.php:193
+msgid "Speed"
+msgstr ""
+
+#: admin/functions/functions.options.php:194
+msgid "Enter how many milliseconds each slide should appear for."
+msgstr ""
+
+#: admin/functions/functions.options.php:199
+msgid "Animation Speed"
+msgstr ""
+
+#: admin/functions/functions.options.php:200
+msgid "Enter how long the animation speed should last."
+msgstr ""
+
+#: admin/functions/functions.options.php:205
+msgid "Amount"
+msgstr ""
+
+#: admin/functions/functions.options.php:206
+msgid "Enter how many posts you want to show."
+msgstr ""
+
+#: admin/functions/functions.options.php:211
+msgid "Category"
+msgstr ""
+
+#: admin/functions/functions.options.php:212
+msgid "Select which categories to pull from."
+msgstr ""
+
+#: admin/functions/functions.options.php:224
+msgid "Archive Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:228
+#: library/engine-categorymeta.php:46
+msgid "First Few Posts Layout"
+msgstr ""
+
+#: admin/functions/functions.options.php:229
+#: library/engine-categorymeta.php:71
+msgid ""
+"Select which layout you want to use for the first few posts. This layout "
+"will show on the first page of results."
+msgstr ""
+
+#: admin/functions/functions.options.php:240
+#: library/engine-categorymeta.php:75
+msgid "First Few Posts Number"
+msgstr ""
+
+#: admin/functions/functions.options.php:241
+#: library/engine-categorymeta.php:79
+msgid "Enter how many posts you want to show using the first few posts layout."
+msgstr ""
+
+#: admin/functions/functions.options.php:247
+msgid "Archive Layout"
+msgstr ""
+
+#: admin/functions/functions.options.php:248
+msgid "This is the default layout for archives, categories, tags etc..."
+msgstr ""
+
+#: admin/functions/functions.options.php:261
+#: library/engine-categorymeta.php:21
+#: library/theme-metaboxes/theme-metaboxes.php:27
+msgid "Sidebar Position"
+msgstr ""
+
+#: admin/functions/functions.options.php:264
+msgid "Archives"
+msgstr ""
+
+#: admin/functions/functions.options.php:265
+msgid ""
+"This is the default sidebar position for archives. You can also override "
+"this setting when editing a specific category."
+msgstr ""
+
+#: admin/functions/functions.options.php:275
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:8
+msgid "Posts"
+msgstr ""
+
+#: admin/functions/functions.options.php:276
+msgid ""
+"This is the default sidebar position for posts. You can also override this "
+"setting when editing a specific post."
+msgstr ""
+
+#: admin/functions/functions.options.php:286
+msgid "Pages"
+msgstr ""
+
+#: admin/functions/functions.options.php:287
+msgid ""
+"This is the default sidebar position for pages. You can also override this "
+"setting when editing a specific page."
+msgstr ""
+
+#: admin/functions/functions.options.php:299
+msgid "Post Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:304
+msgid "Featured Image Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:307
+msgid "Default Featured Image"
+msgstr ""
+
+#: admin/functions/functions.options.php:308
+msgid ""
+"Upload an optional image to use as a default featured image for posts "
+"without one set."
+msgstr ""
+
+#: admin/functions/functions.options.php:317
+msgid "Typography"
+msgstr ""
+
+#: admin/functions/functions.options.php:321
+msgid "Font Family Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:324
+msgid "Body font family"
+msgstr ""
+
+#: admin/functions/functions.options.php:330
+msgid "Headings font family"
+msgstr ""
+
+#: admin/functions/functions.options.php:339
+msgid "Font Weight Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:343
+msgid "Headings font weight"
+msgstr ""
+
+#: admin/functions/functions.options.php:351
+msgid "Font Size Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:354
+msgid "Body font size"
+msgstr ""
+
+#: admin/functions/functions.options.php:361
+msgid "Body font line height"
+msgstr ""
+
+#: admin/functions/functions.options.php:371
+msgid "Color Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:376
+msgid "Main colors settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:379
+msgid "Highlight Color"
+msgstr ""
+
+#: admin/functions/functions.options.php:380
+msgid ""
+"Choose your first (main) color, used a lot in the elements, gradients, links "
+"etc"
+msgstr ""
+
+#: admin/functions/functions.options.php:388
+msgid "Body Background"
+msgstr ""
+
+#: admin/functions/functions.options.php:392
+msgid "These options are used when you use boxed version of theme."
+msgstr ""
+
+#: admin/functions/functions.options.php:395
+msgid "Background Color"
+msgstr ""
+
+#: admin/functions/functions.options.php:396
+msgid "Choose your background color."
+msgstr ""
+
+#: admin/functions/functions.options.php:401
+msgid "Enable Background Image"
+msgstr ""
+
+#: admin/functions/functions.options.php:402
+msgid ""
+"Check this to use a background image for the theme, otherwise only the solid "
+"color you chose above will be displayed."
+msgstr ""
+
+#: admin/functions/functions.options.php:407
+msgid "Background Image"
+msgstr ""
+
+#: admin/functions/functions.options.php:408
+msgid "Select a background image"
+msgstr ""
+
+#: admin/functions/functions.options.php:414
+msgid "Custom Background"
+msgstr ""
+
+#: admin/functions/functions.options.php:415
+msgid ""
+"Upload a custom background for your theme. This will override the option "
+"above."
+msgstr ""
+
+#: admin/functions/functions.options.php:421
+msgid "Background Image Properties"
+msgstr ""
+
+#: admin/functions/functions.options.php:422
+#: admin/functions/functions.options.php:480
+msgid ""
+"You can define additional shorthand properties for the background such as no-"
+"repeat here. This is for advanced CSS users only."
+msgstr ""
+
+#: admin/functions/functions.options.php:428
+msgid "Page Title Options"
+msgstr ""
+
+#: admin/functions/functions.options.php:432
+msgid ""
+"Background color/image and page title font color can be overwrited on the "
+"page settings (excluding pages like blog, archives, taxonomies, search "
+"results, 404)."
+msgstr ""
+
+#: admin/functions/functions.options.php:435
+msgid "Additional Padding"
+msgstr ""
+
+#: admin/functions/functions.options.php:436
+msgid ""
+"Add here additional padding if you want to have higher page title area (in "
+"pixels). It will add that amount of padding to the top and bottom of page "
+"title"
+msgstr ""
+
+#: admin/functions/functions.options.php:441
+msgid "Page Title Font Color"
+msgstr ""
+
+#: admin/functions/functions.options.php:442
+msgid ""
+"Choose font color for page title. Can be overwrited on the page settings - "
+"#555555 for light style, #ffffff for dark style"
+msgstr ""
+
+#: admin/functions/functions.options.php:447
+msgid "Show Page Title Shadow"
+msgstr ""
+
+#: admin/functions/functions.options.php:448
+msgid "Check this to show shadow in the page title."
+msgstr ""
+
+#: admin/functions/functions.options.php:453
+msgid "Page Title Background Color"
+msgstr ""
+
+#: admin/functions/functions.options.php:454
+msgid "Choose your background color for page title."
+msgstr ""
+
+#: admin/functions/functions.options.php:459
+msgid "Enable Page Title Background Image"
+msgstr ""
+
+#: admin/functions/functions.options.php:460
+msgid ""
+"Check this to use a background image for page title, otherwise only the "
+"solid color you chose above will be displayed."
+msgstr ""
+
+#: admin/functions/functions.options.php:465
+msgid "Page Title Background Image"
+msgstr ""
+
+#: admin/functions/functions.options.php:466
+msgid "Select a background image for page title"
+msgstr ""
+
+#: admin/functions/functions.options.php:472
+msgid "Page Title Custom Background"
+msgstr ""
+
+#: admin/functions/functions.options.php:473
+msgid ""
+"Upload a custom background for page title. This will override the option "
+"above."
+msgstr ""
+
+#: admin/functions/functions.options.php:479
+msgid "Page Title Background Image Properties"
+msgstr ""
+
+#: admin/functions/functions.options.php:486
+#: admin/functions/functions.options.php:493
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/functions/functions.options.php:490
+msgid ""
+"If you want to add some custom css to the theme this is the right place to "
+"do this. CSS from this field will overwrite other css properties."
+msgstr ""
+
+#: admin/functions/functions.options.php:501
+msgid "Backup Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:504
+msgid "Backup and Restore Settings"
+msgstr ""
+
+#: admin/functions/functions.options.php:508
+msgid ""
+"You can use the two buttons below to backup your current options, and then "
+"restore it back at a later time. This is useful if you want to experiment on "
+"the options but would like to keep the old settings in case you need it back."
+msgstr ""
+
+#: admin/functions/functions.options.php:511
+msgid "Transfer Theme Options Data"
+msgstr ""
+
+#: admin/functions/functions.options.php:515
+msgid ""
+"You can tranfer the saved options data between different installs by copying "
+"the text inside the text box. To import data from another install, replace "
+"the data in the text box with the one from another install and click 'Import "
+"Options'"
+msgstr ""
+
+#: admin/functions/functions.php:59
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr ""
+
+#: admin/functions/functions.php:60
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:165
+msgid "Install Plugins"
+msgstr ""
+
+#: admin/functions/functions.php:61
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: admin/functions/functions.php:62
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: admin/functions/functions.php:73
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:178
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: admin/functions/functions.php:74
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:179
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1846
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: admin/functions/functions.php:75
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: admin/functions/gm/gallery-metabox.php:75
+msgid "Slider Images"
+msgstr ""
+
+#: admin/functions/gm/gallery-metabox.php:173
+msgid "Add Image"
+msgstr ""
+
+#: admin/functions/gm/gallery-metabox.php:173
+msgid "Upload Images"
+msgstr ""
+
+#: admin/functions/gm/gallery-metabox.php:174
+msgid "Manage Gallery"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:517
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1956
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: admin/functions/tgm-plugin-activation/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: library/engine-categorymeta.php:28
+#: library/theme-metaboxes/theme-metaboxes.php:33
+msgid "Right"
+msgstr ""
+
+#: library/engine-categorymeta.php:32
+#: library/theme-metaboxes/theme-metaboxes.php:34
+#: library/theme-pagebuilder/blocks/engine-heading-block.php:29
+msgid "Left"
+msgstr ""
+
+#: library/engine-categorymeta.php:36
+msgid "None"
+msgstr ""
+
+#: library/engine-categorymeta.php:42
+#: library/theme-metaboxes/theme-metaboxes.php:28
+msgid "Select a position for the sidebar or simply remove it."
+msgstr ""
+
+#: library/engine-categorymeta.php:53 library/engine-categorymeta.php:91
+msgid "Use default"
+msgstr ""
+
+#: library/engine-categorymeta.php:56 library/engine-categorymeta.php:94
+msgid "1 Column"
+msgstr ""
+
+#: library/engine-categorymeta.php:59 library/engine-categorymeta.php:97
+msgid "2 Column"
+msgstr ""
+
+#: library/engine-categorymeta.php:62 library/engine-categorymeta.php:100
+msgid "3 Column"
+msgstr ""
+
+#: library/engine-categorymeta.php:65 library/engine-categorymeta.php:103
+msgid "4 Column"
+msgstr ""
+
+#: library/engine-categorymeta.php:84
+msgid "Layout"
+msgstr ""
+
+#: library/engine-categorymeta.php:109
+msgid "Change the default layout."
+msgstr ""
+
+#: library/engine-functions.php:198
+msgid "Pages:"
+msgstr ""
+
+#: library/engine-functions.php:200
+msgid "Next page"
+msgstr ""
+
+#: library/engine-functions.php:201
+msgid "Previous page"
+msgstr ""
+
+#: library/engine-functions.php:473
+msgid "Invalid sidebar ID"
+msgstr ""
+
+#: library/engine-shortcodes/shortcode-posts.php:83
+#: library/engine-shortcodes/shortcode-posts.php:106
+msgid "0 Comments"
+msgstr ""
+
+#: library/engine-shortcodes/shortcode-posts.php:83
+#: library/engine-shortcodes/shortcode-posts.php:106
+msgid "1 Comment"
+msgstr ""
+
+#: library/engine-shortcodes/shortcode-posts.php:83
+#: library/engine-shortcodes/shortcode-posts.php:106
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:43
+msgid "Comments"
+msgstr ""
+
+#: library/engine-shortcodes/shortcode-posts.php:159
+#: library/engine-shortcodes/shortcode-slider.php:97 parts/flash-news.php:60
+msgid "No posts found"
+msgstr ""
+
+#: library/engine-widgets/dt-slider.php:11
+#: library/engine-widgets/featured-posts.php:11
+msgid "The most featured posts on your site"
+msgstr ""
+
+#: library/engine-widgets/dt-slider.php:12
+msgid "DT Slider"
+msgstr ""
+
+#: library/engine-widgets/dt-slider.php:37
+#: library/engine-widgets/featured-posts.php:12
+#: library/engine-widgets/featured-posts.php:37
+msgid "Featured Posts"
+msgstr ""
+
+#: library/engine-widgets/dt-slider.php:87
+#: library/engine-widgets/dt-social.php:278
+#: library/engine-widgets/featured-posts.php:92
+msgid "Title:"
+msgstr ""
+
+#: library/engine-widgets/dt-slider.php:90
+#: library/engine-widgets/featured-posts.php:95
+msgid "Number of posts to show:"
+msgstr ""
+
+#: library/engine-widgets/dt-slider.php:94
+#: library/engine-widgets/featured-posts.php:99
+msgid "Category:"
+msgstr ""
+
+#: library/engine-widgets/dt-social.php:79
+msgid "Icon Size"
+msgstr ""
+
+#: library/engine-widgets/dt-social.php:80
+msgid "Open Links"
+msgstr ""
+
+#: library/engine-widgets/dt-social.php:81
+msgid "Preview"
+msgstr ""
+
+#: library/engine-widgets/dt-social.php:82
+msgid "Shortcode and Template Tag"
+msgstr ""
+
+#: library/engine-widgets/dt-social.php:87
+#: library/engine-widgets/dt-social.php:88
+msgid "DTSocial Settings"
+msgstr ""
+
+#: library/engine-widgets/dt-social.php:87
+#: library/engine-widgets/dt-social.php:90
+msgid "DTSocial"
+msgstr ""
+
+#: library/engine-widgets/dt-social.php:88
+msgid "Settings"
+msgstr ""
+
+#: library/engine-widgets/dt-social.php:99
+msgid ""
+"DTSocial allows you to display snazzy social icons on your site. Customize "
+"the output of DTSocial with this settings page. Select the services to be "
+"used and basic configuration settings."
+msgstr ""
+
+#: library/engine-widgets/dt-social.php:100
+msgid ""
+"Check out our other free <a href=\"http://www.themedt.com/plugins/?"
+"ref=dtsocial\">plugins</a> and <a href=\"http://www.themedt.com/themes/?"
+"ref=dtsocial\">themes</a>."
+msgstr ""
+
+#: library/engine-widgets/dt-social.php:103
+msgid "Settings saved."
+msgstr ""
+
+#: library/engine-widgets/dt-social.php:109
+msgid "Save Changes"
+msgstr ""
+
+#: library/engine-widgets/dt-social.php:282
+msgid "Description:"
+msgstr ""
+
+#: library/engine-widgets/dt-social.php:286
+msgid "Size:"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:21
+#: library/shortcodes/tinymce/config.php:287
+msgid "Alert's Text"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:22
+msgid "Add the alert's text"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:26
+msgid "Alert Style"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:27
+msgid "Select the alert's style, ie the alert's colour"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:37
+msgid "Alert Type"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:38
+msgid "Select the alert's type"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:47
+msgid "Closing X"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:48
+msgid "Display a X on the alert to close it"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:56
+msgid "Insert Alert Shortcode"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:68
+msgid "Button's Text"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:69
+msgid "Add the button's text"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:74
+msgid "Button URL"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:75
+msgid "Add the button's url eg http://example.com"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:79
+msgid "Button Style"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:80
+msgid "Select the button's style, ie the button's colour"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:90
+msgid "Button Size"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:91
+msgid "Select the button's size"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:101
+msgid "Button Type"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:102
+#: library/shortcodes/tinymce/config.php:334
+msgid "Select the button's type"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:111
+msgid "Expand"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:112
+msgid "Expands the button to full width"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:120
+msgid "Disabled"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:121
+msgid "Button will be in a disabled state"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:129
+msgid "Insert Button Shortcode"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:138
+msgid "Insert Columns Shortcode"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:145
+msgid "First or Last"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:146
+msgid "Select if this column is the first or last in the row"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:155
+msgid "Large Grid"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:156
+msgid "Select the number of columns for the large screen grid"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:174
+msgid "Small Grid"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:175
+msgid "Select the number of columns for the small screen grid"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:194
+msgid "Column Content"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:195
+msgid "Add the column content."
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:199
+msgid "Add Column"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:211
+msgid "Widescreen"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:212
+msgid "Select if the video widescreen"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:220
+msgid "Vimeo"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:221
+msgid "Select if the video is vimeo to remove padding"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:230
+msgid "Video Embed Code"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:231
+msgid "Enter the code to embed the video"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:235
+msgid "Insert Flex Video Shortcode"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:246
+msgid "Icon Cateogry"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:247
+msgid "Select the category for the icon"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:258
+msgid "Icon"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:259
+msgid ""
+"Enter the name of the icon from http://zurb.com/playground/foundation-icons"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:264
+msgid "Styles"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:265
+msgid "Enter any styles for the icon as inline CSS ( ie. color: #000; )"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:270
+msgid "Text"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:271
+msgid "Enter any text to be displayed with the icon"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:275
+msgid "Insert Glyph Icon Shortcode"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:288
+msgid "Add the label's text"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:292
+msgid "Label Style"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:293
+msgid "Select the label's style, ie the label's colour"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:303
+#: library/shortcodes/tinymce/config.php:333
+msgid "Label Type"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:304
+msgid "Select the label's type"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:313
+msgid "Insert Label Shortcode"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:324
+msgid "Callout Style"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:325
+msgid "Callout style is a brighter panel"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:343
+msgid "Panel's Text"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:344
+msgid "Add the panel's text"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:348
+msgid "Insert Panel Shortcode"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:359
+#: library/theme-pagebuilder/blocks/engine-heading-block.php:36
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:41
+msgid "Title"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:360
+msgid "Title of the price table"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:365
+msgid "Price"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:366
+msgid "Price for the price table"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:371
+msgid "Description"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:372
+msgid "Description of the price table"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:377
+msgid "Button Text"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:378
+msgid "Text for the button on the price table"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:383
+msgid "Insert Price Table Shortcode"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:390
+#: library/shortcodes/tinymce/config.php:547
+msgid "Section Content"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:391
+#: library/shortcodes/tinymce/config.php:548
+msgid "Add the tabs content"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:395
+msgid "Add Price Table Item"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:407
+msgid "Progress Bar Style"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:408
+msgid "Select the progress bar's style, ie the progress bar's colour"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:418
+msgid "Progress Bar Type"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:419
+msgid "Select the progress bar's type"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:428
+msgid "Progress Bar Length"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:429
+msgid "Select the progress bar's length in columns"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:448
+msgid "Progress Bar Fill"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:449
+msgid "Enter the progress bar's fill amount"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:454
+msgid "Progress Bar's Text"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:455
+msgid "Add the progress bar's text"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:459
+msgid "Insert Progress Bar Shortcode"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:470
+msgid "Open Modal Text"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:471
+msgid "Add the link that will open the modal window"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:476
+msgid "Modal Size"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:477
+msgid "Select the size of the modal window"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:488
+msgid "Button Link"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:489
+msgid "Select if the link that opens the modal is a button"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:498
+#: library/shortcodes/tinymce/config.php:587
+msgid "Modal Content"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:499
+#: library/shortcodes/tinymce/config.php:588
+msgid "Add the content for the modal. Will accept HTML"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:504
+msgid "Insert Reveal Modal Shortcode"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:514
+msgid "Sections Type"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:515
+msgid "Select the type of sections to use"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:525
+msgid "Insert Sections Shortcode"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:532
+msgid "Section Title"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:533
+msgid "Title of the section"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:537
+msgid "Active"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:538
+msgid "Select if this section is active on page load"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:552
+msgid "Add Section"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:564
+msgid "Tip Text"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:565
+msgid "Add the text that will be in the tooltip"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:570
+msgid "Tooltip Position"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:571
+msgid "Select where the tooltip should be displayed"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:581
+msgid "Tooltip Width"
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:582
+msgid "Add a specific width for the tip. Only a number."
+msgstr ""
+
+#: library/shortcodes/tinymce/config.php:593
+msgid "Insert a Tooltip Shortcode"
+msgstr ""
+
+#: library/theme-metaboxes/classes.fields.php:407
+msgid "Allowed Image Files"
+msgstr ""
+
+#: library/theme-metaboxes/theme-metaboxes.php:35
+msgid "No Sidebar"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/aq-clear-block.php:43
+msgid ""
+"Use this block to clear the floats between two or more separate blocks "
+"vertically."
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/aq-column-block.php:20
+#: library/theme-pagebuilder/blocks/aq-column-block.php:41
+msgid "Drag block items into this column box"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-heading-block.php:8
+msgid "Heading"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-heading-block.php:30
+msgid "Center"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-heading-block.php:42
+msgid "Text Align"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-heading-block.php:48
+msgid "Link URL"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-heading-block.php:54
+msgid "Link Text"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:40
+msgid "Date"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:42
+msgid "Random"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:52
+msgid "Title Only"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:53
+msgid "Title & Meta"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:54
+msgid "Title, Meta & Thumb (thumb on side)"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:55
+msgid "Title, Meta & Thumb (1 column)"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:56
+msgid "Title, Meta & Thumb (2 columns)"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:57
+msgid "Title, Meta & Thumb (3 columns)"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:58
+msgid "Title, Meta & Thumb (4 columns)"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:64
+#: library/theme-pagebuilder/blocks/engine-slider-block.php:40
+msgid "Title (optional)"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:71
+msgid "Style"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:78
+#: library/theme-pagebuilder/blocks/engine-slider-block.php:47
+msgid "Number of Posts"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:85
+#: library/theme-pagebuilder/blocks/engine-slider-block.php:61
+msgid "Categories"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:92
+msgid "Order By"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:99
+msgid "Order"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-posts-block.php:106
+msgid "Excerpt Length (optional)"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-slider-block.php:8
+msgid "Slider"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-slider-block.php:54
+msgid "Excerpt Length"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-slider-block.php:68
+msgid "Autoplay"
+msgstr ""
+
+#: library/theme-pagebuilder/blocks/engine-slider-block.php:75
+msgid "Randomize?"
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-block.php:41
+msgid ""
+"function AQ_Block::block should not be accessed directly. Output generated "
+"by the "
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-block.php:64
+msgid "There are no options for this block."
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-page-builder.php:24
+#: library/theme-pagebuilder/classes/class-aq-page-builder.php:25
+#: library/theme-pagebuilder/functions/aqpb_config.php:14
+#: library/theme-pagebuilder/functions/aqpb_config.php:15
+msgid "Page Builder"
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-page-builder.php:26
+#: library/theme-pagebuilder/functions/aqpb_config.php:16
+msgid "aq-page-builder"
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-page-builder.php:265
+msgid ""
+"Drag block items from the left into this area to begin building your "
+"template."
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-page-builder.php:494
+msgid "This template is empty"
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-page-builder.php:639
+msgid "Please select your template first!"
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-page-builder.php:656
+#, php-format
+msgid "You don't have any template yet. Let's %s create %s one!"
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-page-builder.php:661
+msgid "Choose Your Page Template"
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-page-builder.php:695
+msgid "For more information:"
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-page-builder.php:696
+msgid ""
+"<a href=\"http://aquagraphite.com/api/documentation/aqua-page-builder\" "
+"target=\"_blank\">Documentation</a>"
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-page-builder.php:697
+msgid ""
+"<a href=\"http://aquagraphite.com/api/changelog/aqua-page-builder\" target="
+"\"_blank\">Changelog</a>"
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-page-builder.php:703
+msgid "Overview"
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-plugin-updater.php:101
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-plugin-updater.php:105
+msgid "An unknown error occurred"
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-plugin-updater.php:119
+msgid "Correcting plugin folder name & activating plugin..."
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-plugin-updater.php:128
+msgid ""
+"The plugin has been updated, but could not be reactivated. Please reactivate "
+"it manually."
+msgstr ""
+
+#: library/theme-pagebuilder/classes/class-aq-plugin-updater.php:129
+msgid "Plugin reactivated successfully."
+msgstr ""
+
+#: library/theme-pagebuilder/functions/aqpb_blocks.php:222
+msgid "Drag block items into this box"
+msgstr ""
+
+#: library/theme-pagebuilder/functions/aqpb_config.php:21
+msgid ""
+"The page builder allows you to create custom page templates which you can "
+"later use for your pages."
+msgstr ""
+
+#: library/theme-pagebuilder/functions/aqpb_config.php:22
+msgid ""
+"To use the page builder, start by adding a new template. You can drag and "
+"drop the blocks on the left into the building area on the right of the "
+"screen. Each block has its own unique configuration which you can manually "
+"configure to suit your needs"
+msgstr ""
+
+#: library/theme-pagebuilder/functions/aqpb_config.php:23
+msgid "Please refer to the"
+msgstr ""
+
+#: library/theme-pagebuilder/functions/aqpb_config.php:23
+msgid " documentation page "
+msgstr ""
+
+#: library/theme-pagebuilder/functions/aqpb_config.php:23
+msgid "for more information on how to use this feature."
+msgstr ""
+
+#: library/theme-pagebuilder/view/view-builder-page.php:19
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: library/theme-pagebuilder/view/view-builder-page.php:67
+#: library/theme-pagebuilder/view/view-builder-page.php:90
+msgid "The "
+msgstr ""
+
+#: library/theme-pagebuilder/view/view-builder-page.php:67
+msgid " page template has been successfully created"
+msgstr ""
+
+#: library/theme-pagebuilder/view/view-builder-page.php:75
+msgid "Sorry, the operation was unsuccessful for the following reason(s): "
+msgstr ""
+
+#: library/theme-pagebuilder/view/view-builder-page.php:90
+msgid " page template has been updated"
+msgstr ""
+
+#: library/theme-pagebuilder/view/view-builder-page.php:102
+msgid "The template has been successfully deleted"
+msgstr ""
+
+#: library/theme-pagebuilder/view/view-builder-page.php:125
+msgid "Available Blocks"
+msgstr ""
+
+#: library/theme-pagebuilder/view/view-builder-page.php:125
+msgid "Deleting"
+msgstr ""
+
+#: library/theme-pagebuilder/view/view-builder-page.php:130
+msgid "Need help? Use the Help tab in the upper right of your screen."
+msgstr ""
+
+#: library/theme-pagebuilder/view/view-builder-page.php:197
+msgid "Template Name"
+msgstr ""
+
+#: library/theme-pagebuilder/view/view-builder-page.php:206
+msgid "Create Template"
+msgstr ""
+
+#: library/theme-pagebuilder/view/view-builder-page.php:206
+#: library/theme-pagebuilder/view/view-builder-page.php:267
+msgid "Save Template"
+msgstr ""
+
+#: library/theme-pagebuilder/view/view-builder-page.php:220
+msgid "Delete Template"
+msgstr ""
+
+#: library/theme-pagebuilder/view/view-builder-page.php:247
+msgid ""
+"To create a custom page template, give it a name above and click Create "
+"Template. Then choose blocks like text, widgets or tabs &amp; toggles from "
+"the left column to add to this template.\n"
+"\t\t\t\t\t\t\t\t\t<br/><br/>\n"
+"\t\t\t\t\t\t\t\t\tYou can drag and drop the blocks to put them in the order "
+"you want. Click on the small arrow at the corner of each block to reveal "
+"additional configuration options. You can also resize each block by clicking "
+"on either side of the block (Note that some blocks are not resizable)\n"
+"\t\t\t\t\t\t\t\t\t<br/><br/>\n"
+"\t\t\t\t\t\t\t\t\tWhen you have finished building your custom page template, "
+"make sure you click the Save Template button."
+msgstr ""
+
+#: parts/archive-first-page.php:9 parts/archive-list.php:4
+msgid "Latest Posts"
+msgstr ""
+
+#: parts/archive-first-page.php:11 parts/archive-list.php:9
+msgid "Latest from"
+msgstr ""
+
+#: parts/archive-first-page.php:50
+msgid "Earlier Posts"
+msgstr ""
+
+#: parts/archive-first-page.php:79 parts/archive-list.php:41
+msgid "No posts found."
+msgstr ""
+
+#: parts/archive-list.php:5 parts/archive-list.php:10
+msgid "Page"
+msgstr ""
+
+#: parts/related.php:19
+msgid "Related"
+msgstr ""

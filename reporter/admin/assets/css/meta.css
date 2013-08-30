@@ -1,0 +1,156 @@
+.of-radio-img-img {
+	border:3px solid #fff;
+	margin:0 5px 10px 0;
+	display:none;
+	cursor:pointer;
+	float:left;
+}
+.of-radio-img-selected {
+	border:3px solid #aaa;
+}
+.of-radio-img-img:hover {
+	opacity:.8;
+}
+.feature-icon-input {
+	background: #666;
+}
+img.feature-icon-input.of-radio-img-selected {
+	border-color: #629c14;
+}
+#mt-meta-box-teams-categories option, #mt-meta-box-testimonials-categories option,
+#mt-meta-box-portfolio-categories option, #mt-meta-box-sliders-categories option, #mt-meta-box-portfolio-pagi option,
+#mt-meta-box-homepage option, #mt-meta-box-homepage-ls option, #mt-meta-box-contact option, #mt-slider-settings option {
+	padding: 5px 10px;
+}
+#mt-meta-box-teams-categories input, #mt-meta-box-testimonials-categories input, #mt-meta-box-portfolio-categories input,
+#mt-meta-box-sliders-categories input, #mt-meta-box-portfolio-pagi input, #mt-meta-box-contact input,
+#mt-slider-settings input {
+	padding: 8px 10px;
+}
+.mt-ms-container {
+	background: #fcfcfc;
+	border:1px solid #e3e3e3;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin-bottom:10px;
+}
+.mt-ms-container input, .mt-ms-container textarea {
+	padding: 8px;
+}
+.mt-ms-container input.button {
+	padding: 4px 8px;
+}
+.meta-slides .placeholder {
+	background: #fcfcfc;
+	border:1px dashed #e3e3e3; 
+	height:36px;
+	margin-bottom:10px;
+}
+.mt-ms-head {
+	position: relative;
+	font-weight:bold;
+	color: #666;
+	padding: 10px 15px;
+	cursor: move;
+	overflow: hidden;
+}
+.mt-ms-head a.mt-ms-toggle {
+	font-weight:normal;
+	float:right;
+	text-decoration:none;
+	height: 20px;
+	width: 20px;
+	text-indent: -9999px;
+	background: url(../images/slider-open-closed.png) no-repeat 0 0;
+}
+a.mt-ms-delete {
+	margin-top: 0;
+	padding: 2px 9px;
+	font-size: 11px;	
+	text-decoration:none;
+	text-shadow: 0 1px rgba(255,255,255,.2);
+	float: right;
+	background: #dc6b63;
+	background: -moz-linear-gradient(top, #dc6b63 0%, #c34843 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dc6b63), color-stop(100%,#c34843));
+	background: -webkit-linear-gradient(top, #dc6b63 0%,#c34843 100%);
+	background: -o-linear-gradient(top, #dc6b63 0%,#c34843 100%);
+	background: -ms-linear-gradient(top, #dc6b63 0%,#c34843 100%);
+	background: linear-gradient(top, #dc6b63 0%,#c34843 100%);
+	border: 1px solid #c24845;
+	color: #5B2317;
+	font-weight: bold;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+a.mt-ms-delete:hover {
+	background: #dc6b63;
+}
+.mt-ms-body {
+	display:none;
+	padding: 10px 15px;
+	border-top: 1px solid #eee;
+}
+.mt-ms-body label {
+	font-weight: bold;
+}
+.mt-ms-slider-head-thumbnail {
+	position: absolute;
+	right: 50px;
+	top: 5px;
+	height: 30px;
+	display: inline-block;
+}
+.mt-ms-slider-head-thumbnail img {
+	background: #fff;
+	border: 1px solid #eee;
+	padding: 2px;
+}
+.mt-ms-slider-thumbnail {
+	display: block;
+}
+.mt-ms-slider-thumbnail img {
+	background: #fff;
+	border: 1px solid #eee;
+	padding: 5px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+.mt-ms-input, .mt-ms-textarea { 
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.ms-upload-button { 
+	margin: 5px 0 0;
+}
+a.mt-ms-add-new{
+	margin-top:10px;
+	padding: 7px 9px;
+	font-size: 11px;
+	text-decoration:none;
+	text-shadow: 0 1px rgba(255,255,255,.5);
+	background: #D7E996;
+	background: -moz-linear-gradient(top, #D7E996 0%, #B9D868 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D7E996), color-stop(100%,#B9D868));
+	background: -webkit-linear-gradient(top, #D7E996 0%,#B9D868 100%);
+	background: -o-linear-gradient(top, #D7E996 0%,#B9D868 100%);
+	background: -ms-linear-gradient(top, #D7E996 0%,#B9D868 100%);
+	background: linear-gradient(top, #D7E996 0%,#B9D868 100%);
+	border: 1px solid #B0CE42;
+	font-weight: bold;
+	color: #5E7719;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+a:hover.mt-ms-add-new {
+	background: #D7E996;
+}
+#mt-meta-box-portfolio-categories, #mt-meta-box-testimonials-categories, #mt-meta-box-teams-categories,
+#mt-meta-box-sliders-categories, #mt-meta-box-ls {display: none;}
