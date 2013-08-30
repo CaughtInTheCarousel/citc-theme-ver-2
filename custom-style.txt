@@ -40,8 +40,8 @@ button:focus,
 .button,
 .button:hover, 
 .button:focus {
-  background-color: blue;
-  border-color: blue;
+  background-color: #3770a3;
+  border-color: #3770a3;
 }
 
 @media only screen and (min-width: 940px){
