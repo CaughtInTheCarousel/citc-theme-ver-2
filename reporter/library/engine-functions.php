@@ -118,23 +118,23 @@ if (!function_exists('engine_thumbnail'))
 			
 			// Set size for single
 			if( is_singular() || is_front_page() ) {
-				$img = engine_resize( $img_url, 700, 350, true ); // Full Width Image
-				if( !engine_content_position() ) $img = engine_resize( $img_url, 940, 510, true ); 
+				$img = engine_resize( $img_url, 700, 350, false ); // Full Width Image
+				if( !engine_content_position() ) $img = engine_resize( $img_url, 940, 510, false ); 
 					
 				if( $type == 'large' )
-					$img = engine_resize( $img_url, 940, 510, true ); // 1 Column
+					$img = engine_resize( $img_url, 940, 510, false ); // 1 Column
 					
 				if( $type == 'medium' )
-					$img = engine_resize( $img_url, 700, 350, true ); // 2 Column
+					$img = engine_resize( $img_url, 700, 350, false ); // 2 Column
 					
 				if( $type == 'small' )
-					$img = engine_resize( $img_url, 460, 250, true ); // 3 Column
+					$img = engine_resize( $img_url, 460, 250, false ); // 3 Column
 					
 				if( $type == 'smallest' )
-					$img = engine_resize( $img_url, 220, 120, true ); // 4 Column
+					$img = engine_resize( $img_url, 220, 120, false ); // 4 Column
 					
 				if( $type == 'tiny' )
-					$img = engine_resize( $img_url, 90, 50, true ); // Widget size
+					$img = engine_resize( $img_url, 90, 50, false ); // Widget size
 			}
 			
 			// Archive
@@ -151,12 +151,12 @@ if (!function_exists('engine_thumbnail'))
 				
 				// Set size depending on layout
 				if($layout == '1') {
-					$img = engine_resize( $img_url, 700, 350, true ); // Full Width Image
-					if( !engine_content_position() ) $img = engine_resize( $img_url, 940, 510, true ); 
+					$img = engine_resize( $img_url, 700, 350, false ); // Full Width Image
+					if( !engine_content_position() ) $img = engine_resize( $img_url, 940, 510, false ); 
 				}
-				if($layout == '2') $img = engine_resize( $img_url, 460, 250, true ); // 2 Column 
-				if($layout == '3') $img = engine_resize( $img_url, 300, 165, true ); // 3 Column
-				if($layout == '4') $img = engine_resize( $img_url, 220, 120, true ); // 4 Column	
+				if($layout == '2') $img = engine_resize( $img_url, 460, 250, false ); // 2 Column 
+				if($layout == '3') $img = engine_resize( $img_url, 300, 165, false ); // 3 Column
+				if($layout == '4') $img = engine_resize( $img_url, 220, 120, false ); // 4 Column	
 
 			}
 	

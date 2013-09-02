@@ -65,7 +65,7 @@ function engine_resize( $url, $width = null, $height = null, $crop = null, $sing
 		$dst_rel_path = str_replace( '.' . $ext, '', $rel_path );
 		$destfilename = "{$upload_dir}{$dst_rel_path}-{$suffix}.{$ext}";
 
-		if ( ! $dims || ( true == $crop && false == $upscale && ( $dst_w < $width || $dst_h < $height ) ) ) {
+		if ( ! $dims || ( false == $crop && false == $upscale && ( $dst_w < $width || $dst_h < $height ) ) ) {
 			// Can't resize, so return false saying that the action to do could not be processed as planned.
 			return $url;
 		}
