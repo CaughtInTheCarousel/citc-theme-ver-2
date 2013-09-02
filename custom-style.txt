@@ -1,9 +1,8 @@
+/* Flash News Banner Style Fixes */
+.orbit-container .orbit-slides-container {margin-top: -1px;}
 /* Do Not Display */
 .logo,
 .header-main {display:none;}
-
-/* Flash News Banner Style Fixes */
-.orbit-container .orbit-slides-container {margin-top: -1px;}
 
 .flash-news {
   padding: 15px 0 15px 0px;
@@ -44,6 +43,23 @@ button:focus,
   border-color: #3770a3;
 }
 
+.citc-logo {
+  /*max-width: 37.33333em;*/
+  max-width: 27%;
+  margin: 20px auto -20px auto;
+}
+
+/* Add Margin For New Logo */
+@media only screen and (min-width: 768px){
+  .header_style_2 .main {margin-top: 40px;}
+}
+
+@media only screen and (max-width: 939px){
+    .citc-logo {
+      margin: 20px auto 30px auto;
+      max-width: 50%;
+  }
+}
 @media only screen and (min-width: 940px){
 
    /* Nav Background Color */

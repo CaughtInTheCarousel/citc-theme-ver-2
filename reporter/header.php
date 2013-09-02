@@ -20,6 +20,10 @@
 	
 	<div class="header">
 		
+		<div class="citc-logo">
+			<a href="<?php echo get_bloginfo('url'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" /></a>
+		</div>
+		
 		<div class="header-top container">
 			
 			<div class="row">
@@ -37,81 +41,6 @@
 			
 		</div>
 		<!-- /.header-top -->
-		
-		<div class="header-main">
-			
-			<div class="container">
-					
-				<!-- .logo -->
-				<div class="logo">
-					
-					<?php $logo = $reporter_data['logo']  ?>
-					
-					<?php if($logo != '') : ?>
-					
-						<h1 class="logo-image"><a href="<?php echo home_url(); ?>" title="<?php bloginfo( 'name' ); ?>" rel="home"><img src="<?php echo $logo; ?>" alt="<?php bloginfo('name'); ?>" /></a></h1>
-						
-					<?php else: ?>
-						
-						<h1 class="logo-text"><a href="<?php echo home_url(); ?>" title="<?php bloginfo( 'name' ); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-					
-					<?php endif; ?>
-					
-					</div>
-				<!-- /.logo -->
-	
-				<div class="row header-main-row">
-				
-					<?php if( is_active_sidebar('header_main_l') ) : ?>
-					<div class="large-4 small-6 column header-main-menu">
-						
-						<?php if( !isset($reporter_data['header_menu_left_title']) ) $reporter_data['header_menu_left_title'] = 'Left Title';  ?>
-						<a href="#" data-dropdown="drop1" class="trigger"><?php echo $reporter_data['header_menu_left_title']; ?> <i class="icon-chevron-down"></i></a>
-						<div id="drop1" class="f-dropdown content" data-dropdown-content>
-							
-							<ul class="large-block-grid-2 small-block-grid-1">
-								<?php dynamic_sidebar('header_main_l'); ?>
-							</ul>
-							<!-- /.small-block-grid-1 large-block-grid-2 -->					
-			
-						</div>
-						
-					</div>
-					<!-- /.large-6 column -->
-					<?php endif; ?>
-					
-					<?php if( is_active_sidebar('header_main_r') ) : ?>
-					<div class="large-4 small-6 column header-main-menu">
-						
-						<?php if( !isset($reporter_data['header_menu_right_title']) ) $reporter_data['header_menu_right_title'] = 'Right Title';  ?>
-						<a href="#" data-dropdown="drop2" class="trigger"><?php echo $reporter_data['header_menu_right_title']; ?> <i class="icon-chevron-down"></i></a>
-						
-						<div id="drop2" class="f-dropdown content" data-dropdown-content>
-							
-							<ul class="large-block-grid-2 small-block-grid-1">
-								<?php dynamic_sidebar('header_main_r'); ?>
-							</ul>
-							<!-- /.small-block-grid-1 large-block-grid-2 -->	
-						
-						</div>
-					
-					</div>
-					<!-- /.large-6 column -->
-					<?php endif; ?>
-					
-					<div class="header-search large-4 column right">
-						<?php get_search_form(); ?>
-					</div>
-					<!-- /.header-search -->
-					
-				</div>
-				<!-- /.row -->
-				
-			</div>
-			<!-- /.container -->
-
-		</div>
-		<!-- /.header-main -->
 		
 		<div class="primary-menu container">
 						
