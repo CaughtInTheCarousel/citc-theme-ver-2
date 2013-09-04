@@ -15,13 +15,6 @@
 						
 				<!-- .entry-header -->
 				<header class="entry-header main-header">
-					
-					<div class="entry-meta">
-						<span class="entry-comments"><a href="<?php comments_link(); ?>"><i class="icon-comments"></i><?php comments_number(0, 1, '%'); ?></a></span>
-						<span class="entry-date"><i class="icon-calendar"></i><?php the_time( get_option('date_format') ); ?></span>
-						
-						<span class="entry-tags hide"><?php the_tags(); ?></span>				
-					</div>
 			
 					<h2 class="entry-title"><?php the_title(); ?></h2>
 					

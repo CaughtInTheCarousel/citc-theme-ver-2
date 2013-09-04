@@ -2,7 +2,8 @@
 .orbit-container .orbit-slides-container {margin-top: -1px;}
 /* Do Not Display */
 .logo,
-.header-main {display:none;}
+.header-main,
+.entry-meta {display:none;}
 
 .flash-news {
   padding: 15px 0 15px 0px;
@@ -17,6 +18,13 @@
 }
 
 .flash-news .orbit-container {margin-left: 7px;}
+
+.featured-image {background: transparent;}
+
+.home .featured-image {padding-bottom: 10px;}
+
+.single .featured-image {padding-bottom: 20px;}
+
 
 /* Make Titles Bold */
 .entry-title {font-weight:bold;}
