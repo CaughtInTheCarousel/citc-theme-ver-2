@@ -6,9 +6,9 @@ $count = 0;
 
 
 <?php if( is_home() ): ?>
-<h1 class="page-title"><?php _e('Latest Posts','engine'); ?></h1>
+<h1 class="page-title"><?php _e('Latest Articles','engine'); ?></h1>
 <?php elseif( is_category() ): ?>
-<h1 class="page-title"><?php _e('Latest from','engine'); ?> <?php wp_title(); ?></h1>
+<h1 class="page-title"><?php wp_title(); ?></h1>
 <?php endif; ?>	
 
 <?php if(have_posts()) : ?>

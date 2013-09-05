@@ -23,8 +23,10 @@
 
 .home .featured-image {padding-bottom: 10px;}
 
-.single .featured-image {padding-bottom: 20px;}
+.single .featured-image,
+.archive .featured-image {padding-bottom: 20px;}
 
+.related ul.small-block-grid-1.large-block-grid-3.grid-3 {padding-top: 20px;}
 
 /* Make Titles Bold */
 .entry-title {font-weight:bold;}
@@ -46,7 +48,9 @@ button:hover,
 button:focus, 
 .button,
 .button:hover, 
-.button:focus {
+.button:focus,
+.content input[type="submit"],
+.page-numbers .current {
   background-color: #3770a3;
   border-color: #3770a3;
 }

@@ -19,7 +19,7 @@
 			<?php dynamic_sidebar('footer_bottom'); ?>
 		</ul>	
 		
-		<p class="footer-info"><?php bloginfo('name'); ?> &copy; <?php echo date('Y'); ?> | Hand Crafted by <a href="http://www.designerthemes.com/" target="_parent">DesignerThemes.com</a></p>	
+		<p class="footer-info"><?php bloginfo('name'); ?> &copy; <?php echo date('Y'); ?> | Constructed by <a href="http://www.brettwidmann.com/" target="_parent">Brett Widmann</a></p>	
 		
 	</div>
 	<!-- /.footer-widgets container -->

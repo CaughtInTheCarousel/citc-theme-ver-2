@@ -1,12 +1,12 @@
 <?php $opt = engine_layout_options(); ?>
 
 <?php if( is_home() ): ?>
-<h1 class="page-title"><?php _e('Latest Posts','engine'); ?> 
+<h1 class="page-title"><?php _e('Latest Articles','engine'); ?> 
 	<?php if( is_paged() ) : ?><span class="radius secondary label"><?php _e('Page','engine'); ?> <?php echo $paged; ?></span><?php endif; ?>
 </h1>
 <?php elseif( is_category() ): ?>
 <h1 class="page-title">
-	<?php _e('Latest from','engine'); ?> <?php wp_title(); ?> 
+	<?php wp_title(); ?> 
 	<?php if( is_paged() ) : ?><span class="radius secondary label"><?php _e('Page','engine'); ?> <?php echo $paged; ?></span><?php endif; ?>
 </h1>
 <?php endif; ?>	
