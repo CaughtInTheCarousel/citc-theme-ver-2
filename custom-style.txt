@@ -17,6 +17,13 @@
   font-weight: bold;
 }
 
+article .flex-video {padding-bottom: 21%;}
+
+.embed-youtube .flex-video {
+  padding-bottom: 57.5%;
+  overflow: visible;
+}
+
 .flash-news .orbit-container {margin-left: 7px;}
 
 .featured-image {background: transparent;}
@@ -26,7 +33,7 @@
 .single .featured-image,
 .archive .featured-image {padding-bottom: 20px;}
 
-.related ul.small-block-grid-1.large-block-grid-3.grid-3 {padding-top: 20px;}
+.related ul {padding-top: 20px;}
 
 /* Make Titles Bold */
 .entry-title {font-weight:bold;}
@@ -58,8 +65,19 @@ button:focus,
 .citc-logo {
   /*max-width: 37.33333em;*/
   max-width: 27%;
-  margin: 20px auto -20px auto;
+  margin: 20px auto;
 }
+
+/*.advanced_recent_posts_widget .post-title {display: none;}
+
+.advanced_recent_posts_widget ul li {border-bottom: none !important;}*/
+
+/*#featured-posts-2 ul {
+  margin-top: -135px;
+  margin-bottom: -40px;
+}*/
+
+.fluid-width-video-wrapper {padding: inherit !important;}
 
 /* Add Margin For New Logo */
 @media only screen and (min-width: 768px){
@@ -92,4 +110,9 @@ button:focus,
     font-size: 1.2em;
     color: #fff;
   }
+}
+
+.entry-content a {
+color: #3771a3;
+font-weight: bold;
 }
