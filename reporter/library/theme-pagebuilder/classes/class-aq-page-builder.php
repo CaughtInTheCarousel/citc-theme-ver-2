@@ -128,10 +128,6 @@ if(!class_exists('AQ_Page_Builder')) {
 		 */
 		function view_enqueue() {
 			
-			// front-end css
-			wp_register_style( 'aqpb-view-css', $this->url.'assets/css/aqpb-view.css', array(), time(), 'all');
-			wp_enqueue_style('aqpb-view-css');
-				
 			// front-end js
 			wp_register_script('aqpb-view-js', $this->url . 'assets/js/aqpb-view.js', array('jquery'), time(), true);
 			wp_enqueue_script('aqpb-view-js');
