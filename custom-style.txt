@@ -1,3 +1,7 @@
+body {color: #000 !important;}
+
+p {font-size: 1.03em !important;}
+
 /* Flash News Banner Style Fixes */
 .orbit-container .orbit-slides-container {margin-top: -1px;}
 /* Do Not Display */
@@ -21,8 +25,12 @@ article .flex-video {padding-bottom: 21%;}
 
 .embed-youtube .flex-video {
   padding-bottom: 57.5%;
+  margin-bottom: 50px;
   overflow: visible;
+  padding-top: 0;
 }
+
+article .flex-video .fluid-width-video-wrapper {padding-bottom: 63% !important;}
 
 .flash-news .orbit-container {margin-left: 7px;}
 
@@ -65,7 +73,9 @@ button:focus,
 .citc-logo {
   /*max-width: 37.33333em;*/
   max-width: 27%;
-  margin: 20px auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 }
 
 /*.advanced_recent_posts_widget .post-title {display: none;}
@@ -82,6 +92,12 @@ button:focus,
 /* Add Margin For New Logo */
 @media only screen and (min-width: 768px){
   .header_style_2 .main {margin-top: 40px;}
+}
+
+/* Center Featured Review Image */
+.advanced_recent_posts_widget img {
+  float: none !important;
+  margin: 0 auto !important;
 }
 
 @media only screen and (max-width: 939px){
@@ -115,4 +131,37 @@ button:focus,
 .entry-content a {
 color: #3771a3;
 font-weight: bold;
+}
+
+.album-name {font-weight: bold;}
+
+#text-2 .adsbygoogle .flex-video {
+  padding-bottom: 90% !important;
+  margin-top: 0;
+}
+
+.adslot_1,
+.adslot_2 {
+  width: 320px; 
+  height: 50px;
+  text-align: center;
+  margin-left: -20px;
+}
+
+.adslot_2 {margin-top: 50px;}
+
+@media (min-width:500px) { 
+  .adslot_1,
+  .adslot_2 {
+    width: 468px; 
+    height: 60px;
+  }
+}
+
+@media (min-width:800px) { 
+  .adslot_1,
+  .adslot_2 {
+    width: 728px; 
+    height: 90px;
+  }
 }
